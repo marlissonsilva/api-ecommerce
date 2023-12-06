@@ -17,5 +17,5 @@ connectDatabase();
 app.use(router);
 
 app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}/doc`);
+  console.log(`Servidor rodando em http://localhost:${port}`);
 });

@@ -11,6 +11,6 @@ router.patch("/update/:postId", ProductController.updateProduct);
 
 router.delete("/delete/:postId", ProductController.deleteByIdProduct);
 
-router.use("/doc", swaggerRouter)
+router.use("/", swaggerRouter)
 
 export default router;
